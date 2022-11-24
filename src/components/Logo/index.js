@@ -1,9 +1,14 @@
+import { Link } from 'react-router-dom'
+
 import './logo.css'
 
 export function Logo() {
-    return(
-        <h1>
-            DevVeih
-        </h1>
+    return (
+        <Link to='/'>
+            <h1 className='logo'>
+                Dev<span className='logo-text'>Veih</span>
+            </h1>
+        </Link>
+
     )
 }
