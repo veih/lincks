@@ -16,4 +16,10 @@
     background-color: #fff;
     border-radius: 3px;
     padding: 5px 8px;
+    transition: background-color 0.5s;
+}
+
+.error .link:hover {
+    background-color: aliceblue;
+    transform: scale(1.05);
 }
