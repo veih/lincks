@@ -13,6 +13,18 @@ export default function Home() {
                         <p className='link-text'>Canal no youtube</p>
                     </a>
                 </section>
+
+                <section className='link-aria'>
+                    <a href='#'>
+                        <p className='link-text'>Grupo do telegram</p>
+                    </a>
+                </section>
+
+                <section className='link-aria'>
+                    <a href='#'>
+                        <p className='link-text'>Instagram</p>
+                    </a>
+                </section>
             </main>
         </div>
     )
