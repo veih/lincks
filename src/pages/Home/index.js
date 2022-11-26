@@ -7,18 +7,18 @@ export default function Home() {
         <div className='home-container'>
             <h1>Veih Programador</h1>
             <span>Veja meus links 👇</span>
-            
+
             <main className='links'>
                 <section className='link-aria'>
-                    <Links canal='Youtube' />
+                  <a href='https://www.linkedin.com/in/marcelo-evangelista-847515175/' target="_blank" rel="noreferrer"><Links social='Linkedin'/></a> 
                 </section>
 
                 <section className='link-aria'>
-                    <Links canal='Instagram' />
+                   <a href='https://www.instagram.com/accounts/activity/' target="_blank" rel="noreferrer"><Links social='Instagram'/></a>
                 </section>
 
                 <section className='link-aria'>
-                    <Links canal='FaceBook' />
+                  <a href='https://www.facebook.com/veihbabal' target="_blank" rel="noreferrer"><Links social='FaceBook' /></a>
                 </section>
 
             </main>
