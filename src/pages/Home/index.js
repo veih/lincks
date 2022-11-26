@@ -1,3 +1,4 @@
+import { Links } from '../../components/Links'
 
 import './home.css'
 
@@ -6,26 +7,22 @@ export default function Home() {
         <div className='home-container'>
             <h1>Veih Programador</h1>
             <span>Veja meus links 👇</span>
-
+            
             <main className='links'>
                 <section className='link-aria'>
-                    <a href='#'>
-                        <p className='link-text'>Canal no youtube</p>
-                    </a>
+                    <Links canal='Youtube' />
                 </section>
 
                 <section className='link-aria'>
-                    <a href='#'>
-                        <p className='link-text'>Grupo do telegram</p>
-                    </a>
+                    <Links canal='Instagram' />
                 </section>
 
                 <section className='link-aria'>
-                    <a href='#'>
-                        <p className='link-text'>Instagram</p>
-                    </a>
+                    <Links canal='FaceBook' />
                 </section>
+
             </main>
+
         </div>
     )
 }
